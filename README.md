@@ -9,8 +9,6 @@ The goal of this project is to empower viewers by forewarning them about potenti
 
 TREAT is a web application that uses natural language processing to analyze movie and TV show scripts, identifying potential triggers to help viewers make informed choices.
 
-[![Video Title](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
-
 ## Installation Instructions
 ### Prerequisites
  - Star the Repository to Show Your Support.
