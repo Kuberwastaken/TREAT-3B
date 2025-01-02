@@ -9,8 +9,6 @@ The goal of this project is to empower viewers by forewarning them about potenti
 
 TREAT is a web application that uses natural language processing to analyze movie and TV show scripts, identifying potential triggers to help viewers make informed choices.
 
-[![Video Title](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
-
 ## Installation Instructions
 ### Prerequisites
  - Star the Repository to Show Your Support.
@@ -132,11 +130,9 @@ This repository is completely open source and free to contribute. I intend to ke
 ## Acknowledgements
 I would like to thank:
 
-- Dr. David J Malan: For teaching CS50 and inspiring countless students to pursue computer science.
-
 - Google AI: For developing the FLAN-T5-Base model, a critical component of this project.
 
 - Parasite (2019): For that unexpected jumpscare that ruined my appetite and ultimately inspired this project.
 
 ## License
-This project is licensed under the [apache 2.0 license](https://github.com/Kuberwastaken/TREAT/blob/main/LICENSE))
+This project is licensed under the [apache 2.0 license](https://github.com/Kuberwastaken/TREAT/blob/main/LICENSE)
