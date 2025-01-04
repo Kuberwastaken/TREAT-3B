@@ -18,16 +18,16 @@ def extract_category(response_text):
     # Define trigger categories
     trigger_categories = [
         "Violence",
-        "Death",
-        "Substance Use",
-        "Gore",
-        "Vomit",
-        "Sexual Content",
-        "Sexual Abuse",
         "Self-Harm",
-        "Gun Use", # Missing comma added here
-        "Animal Cruelty",
+        "Death",
+        "Substance Use"
+        "Sexual Content"
+        "Sexual Abuse",
+        "Gun Use",
+        "Gore",
+        "Vomit", 
         "Mental Health Issues"
+        "Animal Cruelty"
     ]
     
     # Check if any category is present in the response_text
