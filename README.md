@@ -1,9 +1,15 @@
-
-# TREAT: Trigger Recognition for Enjoyable and Appropriate Television
-
 ![Treat_Banner](static/images/readme-images/New_Treat_Banner.png)
 
-## Project Description
+<h1 align="center">
+  Trigger Recognition for Enjoyable and Appropiate Television
+</h1>
+
+<p align="center">
+<img src="https://img.shields.io/static/v1?label=Kuberwastaken&message=TREAT&color=blue&logo=github" alt="Kuberwastaken - TREAT">
+<img src="https://img.shields.io/badge/version-2.0-blue" alt="Version 2.0">
+<img src="https://img.shields.io/badge/License-Apache_2.0-blue" alt="License Apache 2.0">
+</p>
+
 I was tired of getting grossed out watching unexpected scenes in movies and TV and losing my appetite, that's why I created TREAT.
 
 The goal of this project is to empower viewers by forewarning them about potential triggers in the content they watch, making the viewing experience more enjoyable, inclusive, and appropriate for everyone.
