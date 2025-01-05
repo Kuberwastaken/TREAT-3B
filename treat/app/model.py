@@ -10,12 +10,12 @@ def analyze_script(script):
 
     try:
         # Load the tokenizer and model, selecting the appropriate device (CPU or CUDA)
-        tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B", use_fast=True)
+        tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-3B", use_fast=True)
         device = "cuda" if torch.cuda.is_available() else "cpu"  # Use CUDA if available, else use CPU
         print(f"Using device: {device}")
 
         model = AutoModelForCausalLM.from_pretrained(
-            "meta-llama/Llama-3.2-1B",
+            "meta-llama/Llama-3.2-3B",
             torch_dtype=torch.float16 if device == "cuda" else torch.float32,  # Use 16-bit precision for CUDA, 32-bit for CPU
             device_map="auto"  # Automatically map model to available device
         )
@@ -208,14 +208,14 @@ def get_detailed_analysis(script):
         result = {
             "detected_triggers": triggers,
             "confidence": "High - Content detected",
-            "model": "Llama-3.2-1B",
+            "model": "Llama-3.2-3B",
             "analysis_timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         }
     else:
         result = {
             "detected_triggers": ["None"],
             "confidence": "High - No concerning content detected",
-            "model": "Llama-3.2-1B",
+            "model": "Llama-3.2-3B",
             "analysis_timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         }
 

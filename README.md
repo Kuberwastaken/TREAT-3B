@@ -1,14 +1,21 @@
 ![Treat_Banner](static/images/readme-images/New_Treat_Banner.png)
 
 <h1 align="center">
-  Trigger Recognition for Enjoyable and Appropriate Television
+  TREAT - 3B
 </h1>
 
 <p align="center">
-<img src="https://img.shields.io/static/v1?label=Kuberwastaken&message=TREAT&color=blue&logo=github" alt="Kuberwastaken - TREAT">
-<img src="https://img.shields.io/badge/version-2.0-blue" alt="Version 2.0">
+<img src="https://img.shields.io/static/v1?label=Kuberwastaken&message=TREAT-3B&color=blue&logo=github" alt="Kuberwastaken - TREAT">
 <img src="https://img.shields.io/badge/License-Apache_2.0-blue" alt="License Apache 2.0">
 </p>
+
+This version of TREAT uses Llama's 3B model, it should be more accurate and advanced 
+
+By Result of that, it is also is MUCH more resource instensive and harder to run!
+
+I would reccomend atleast 24GB RAM and having discrete graphics!
+
+## Project Description
 
 I was tired of getting grossed out watching unexpected scenes in movies and TV and losing my appetite, that's why I created TREAT.
 
@@ -16,17 +23,18 @@ The goal of this project is to empower viewers by forewarning them about potenti
 
 TREAT is a web application that uses natural language processing to analyze movie and TV show scripts, identifying potential triggers to help viewers make informed choices.
 
+
 ## Installation Instructions
 ### Prerequisites
  - Star the Repository to Show Your Support.
  - Clone the Repository to Your Local Machine:
 
     ```bash
-   git clone https://github.com/Kuberwastaken/TREAT.git
+   git clone https://github.com/Kuberwastaken/TREAT-3B.git
     ```
 
 ### Hugging Face Login Instructions for Llama-3.2-1B Model
-To use the [Llama-3.2-1B model](https://huggingface.co/meta-llama/Llama-3.2-1B), which provides a 35% increase in accuracy and efficiency over the [previous model](https://github.com/Kuberwastaken/TREAT-CS50), you must request access for it, as it is a gated model.
+To use the [Llama-3.2-3B model](https://huggingface.co/meta-llama/Llama-3.2-3B), which provides a 35% increase in accuracy and efficiency over the [previous model](https://github.com/Kuberwastaken/TREAT-CS50), you must request access for it, as it is a gated model.
 
    ![Request_Accesss_Page](static/images/readme-images/Request-Access-Page.png)
 
@@ -40,7 +48,7 @@ To use the [Llama-3.2-1B model](https://huggingface.co/meta-llama/Llama-3.2-1B),
 
     Enter your Hugging Face access token when prompted.
 
-2. **Download the Llama-3.2-1B Model:**
+2. **Download the Llama-3.2-3B Model:**
 
    The model will be downloaded automatically when running the script analysis for the first time, provided you have received access.
 
@@ -57,7 +65,7 @@ To set up the development environment, you will need to create a virtual environ
 
    ```bash
    source treat-env/bin/activate   # On Unix or MacOS
-   treat-env\Scriptsctivate      # On Windows
+   treat-env\Scripts\activate      # On Windows
    ```
 
 3. Install Dependencies:
@@ -88,7 +96,7 @@ To set up the development environment, you will need to create a virtual environ
 
 - **app/routes.py:** Contains the Flask routes for handling script uploads.
 
-- **app/model.py:** Includes the script analysis functions using the Llama-3.2-1B model.
+- **app/model.py:** Includes the script analysis functions using the Llama-3.2-3B model.
 
 - **templates/index.html:** The main HTML file for the web interface.
 
@@ -129,7 +137,7 @@ Adding new categories is as simple as specifying a new category under model.py a
 
 - **Theme and Color Scheme:** The chosen theme and color scheme create a visually appealing and engaging environment. The chocolate and sweets theme is intended to stick to the TREAT theme and make the experience enjoyable and pleasant.
 
-- **Script Analysis:** The Llama-3.2-1B model by Meta was chosen for its increased accuracy (about 35% better) compared to the prior FLAN-T5 version. The decision was based on its ability to provide precise trigger recognition while being open source. As a new and advanced model, it enhances the script analysis capabilities significantly.
+- **Script Analysis:** The Llama-3.2-3B model by Meta was chosen for its increased accuracy compared to the prior 1B or FLAN-T5 version. The decision was based on its ability to provide precise trigger recognition while being open source. As a new and advanced model, it enhances the script analysis capabilities significantly.
 
 ## How to Edit Sensitivity Settings or Prompts
 
@@ -172,27 +180,15 @@ To modify the types of triggers detected by the model, you can edit the prompts 
 - **chunk_size, overlap**: Control how the script is divided into chunks and how context is maintained between chunks.
 - **trigger_categories**: Adjust the prompts to change how triggers are identified in the script.
 
-
-## To-Do List
-- Integration with an API to Directly Search Scripts by Name of Movies/Shows
-
-- Introduce multiple themes to allow users to customize the appearance of the application according to their preferences
-
-- Increasing speed and efficiency
-
-- Potentially host this online
-
-- Make the application mobile-friendly
-
 ## Open Source Contribution
-This repository is completely open source and free to contribute. I intend to keep this project alive and evolve it into a tool that's extremely usable for all. Contributions are welcome and highly encouraged to add new features, improve the user interface, or enhance the script analysis.
+This repository is completely open source and free to contribute. Currently, I am unable to run such a resource intensive model locally and hence would not be able to add much to the project, but I intend to keep this project alive and evolve it into a tool that's extremely usable for all. Contributions are welcome and highly encouraged to add new features, improve the user interface, or enhance the script analysis.
 
 ## Acknowledgements
 I would like to thank:
 
-- Meta AI: For developing and allowing me access to the Llama-3.2-1B model, a very critical component of this project.
+- Meta AI: For developing and allowing me access to the Llama-3.2-3B model, a very critical component of this project.
 
 - Parasite (2019): For that unexpected jumpscare that ruined my appetite and ultimately inspired this project.
 
 ## License
-This project is licensed under the [Apache 2.0 License](https://github.com/Kuberwastaken/TREAT/blob/main/LICENSE).
+This project is licensed under the [Apache 2.0 License](https://github.com/Kuberwastaken/TREAT-3B/blob/main/LICENSE).
