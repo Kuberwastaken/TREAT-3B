@@ -58,7 +58,7 @@ To set up the development environment, you will need to create a virtual environ
 1. Create a Virtual Environment:
 
    ```bash
-   python3 -m venv treat-env
+   python3 -m venv treat-3B
    ```
 
 2. Activate the Virtual Environment:
